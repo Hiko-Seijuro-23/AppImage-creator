@@ -22,7 +22,7 @@
 1. **Ejecutar el Programa**:
    Para ejecutar el programa, simplemente ejecuta el script principal:
    ```bash
-   python appimage-creator.sh
+   ./appimage-creator.sh
    ```
 
 2. **Preparar la Fuente**:
