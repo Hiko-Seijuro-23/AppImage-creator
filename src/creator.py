@@ -1,5 +1,6 @@
 import sys
 import os
+import webbrowser
 
 # Importar Tkinter directamente desde el sistema
 from tkinter import (
@@ -90,6 +91,11 @@ class AppImageCreator:
         # Botones para preparar la fuente y crear el AppImage
         Button(master, text="Preparar Fuente", command=self.prepare_source).grid(row=8, column=0, pady=10)
         Button(master, text="Crear AppImage", command=self.create_appimage).grid(row=8, column=1, pady=10)
+        Button(master, text="Github/Hiko-Seijuro-23", fg="blue", command=self.callback).grid(row=8, column=2)
+
+        # Enlace a repo de github
+    def callback(self):
+        webbrowser.open_new(r"https://github.com/Hiko-Seijuro-23/AppImage-creator")
 
     def select_source(self):
         directory = filedialog.askdirectory()
