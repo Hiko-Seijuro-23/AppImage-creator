@@ -3,6 +3,8 @@
 
 **AppImage Creator** es una herramienta gráfica para generar paquetes AppImage de forma sencilla en Linux. Este programa permite a los usuarios crear un AppImage a partir de un directorio de origen, ejecutable e icono, generando automáticamente los archivos y estructura necesarios para que la aplicación sea empaquetada en formato AppImage.
 
+ ![Texto alternativo](https://github.com/Hiko-Seijuro-23/AppImage-creator/blob/5d6438d9788fb01aa987245b3435791cee07c04d/AppImage1.png)
+
 ## Funcionalidades
 
 - **Selección de Directorio de Origen**: Permite elegir el directorio donde se encuentra el código fuente de la aplicación y otros archivos necesarios.
@@ -54,4 +56,4 @@ app_name.AppDir/
 ├── app_name.desktop
 ├── icon.png
 ```
-
+Este programa es posible gracias al proyecto **AppImagetool**
