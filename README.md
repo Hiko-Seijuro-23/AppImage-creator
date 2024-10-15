@@ -56,4 +56,4 @@ app_name.AppDir/
 ├── app_name.desktop
 ├── icon.png
 ```
-Este programa es posible gracias al proyecto **AppImagetool** (https://github.com/AppImage/appimagetool#**AppImagetool**)
+Este programa es posible gracias al proyecto [**AppImagetool**](https://github.com/AppImage/appimagetool)
